@@ -1,0 +1,21 @@
+﻿{
+  "gridEditors": [
+    {
+      "name": "",
+      "alias": "",
+      "view": "/App_Plugins/DocTypeGridEditor/Views/doctypegrideditor.html",
+      "render": "/Views/Partials/TypedGrid/Editors/DocTypeGridEditor.cshtml",
+      "icon": "icon-document",
+      "config": {
+        "allowedDocTypes": [],
+        "enablePreview": true,
+		    "size": "small",
+		    "showDocTypeSelectAsGrid": false,
+        "viewPath": "/Views/Partials/Grid/Editors/DocTypeGridEditor/",
+        "previewViewPath": "/Views/Partials/Grid/Editors/DocTypeGridEditor/Previews/",
+        "previewCssFilePath": "",
+        "previewJsFilePath": ""
+      }
+    }
+  ]
+}

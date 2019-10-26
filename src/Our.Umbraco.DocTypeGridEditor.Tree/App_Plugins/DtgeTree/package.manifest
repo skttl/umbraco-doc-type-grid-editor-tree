@@ -1,0 +1,3 @@
+﻿{
+  "javascript": [ "~/App_Plugins/DtgeTree/edit.controller.js", "~/App_Plugins/DtgeTree/delete.controller.js" ]
+}
