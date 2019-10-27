@@ -1,4 +1,4 @@
-# Doc Type Grid Editor
+# Doc Type Grid Editor Tree
 
 [![Build status](https://img.shields.io/appveyor/ci/skttl/umbraco-doc-type-grid-editor-tree.svg)](https://ci.appveyor.com/project/skttl/umbraco-doc-type-grid-editor-tree)
 [![NuGet release](https://img.shields.io/nuget/v/Our.Umbraco.DocTypeGridEditor.Tree.svg)](https://www.nuget.org/packages/Our.Umbraco.DocTypeGridEditor.Tree)
