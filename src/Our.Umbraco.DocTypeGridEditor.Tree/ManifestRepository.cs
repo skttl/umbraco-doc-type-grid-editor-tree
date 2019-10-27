@@ -78,7 +78,7 @@ namespace skttl.DtgeTree
 					}
 					manifest.EnablePreview = gridEditor.config.enablePreview;
 
-                    manifest.Size = ((string)gridEditor.config.size).IfNullOrWhiteSpace(gridEditor.config.largeDialog != null && gridEditor.config.largeDialog ? null : "small");
+                    manifest.Size = ((string)gridEditor.config.size).IfNullOrWhiteSpace(gridEditor.config.largeDialog != null && gridEditor.config.largeDialog.ToString() == true.ToString() ? null : "small");
                     manifest.ShowDocTypeSelectAsGrid = gridEditor.config.showDocTypeSelectAsGrid;
                     manifest.ViewPath = gridEditor.config.viewPath != "/Views/Partials/TypedGrid/Editors/" ? gridEditor.config.viewPath : "";
 					manifest.PreviewViewPath = gridEditor.config.previewViewPath != "/Views/Partials/TypedGrid/Editors/Previews/" ? gridEditor.config.previewViewPath : "";
